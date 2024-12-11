@@ -11,4 +11,4 @@
 Vertex 5 Lina is an ideal solution for developers seeking to streamline microcontroller programming while maintaining the highest standards of performance and versatility.
 
 ## License:
-Vertex 5 Lina is distributed under the [GPL 3.0](license).
+Vertex 5 Lina is distributed under the [LGPL 2.1](license).
