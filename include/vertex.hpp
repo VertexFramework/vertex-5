@@ -14,4 +14,9 @@
 #   error "<Vertex 5>: Requires at least the 2014 C++ language standard."
 #endif
 
+/* ================= Include software libraries ================= */
+
+#include "software/types.hpp"
+#include "software/string.hpp"
+
 #endif // VERTEX_5_HPP_
