@@ -140,8 +140,12 @@ public:
 
     /* ================== operators ================== */
 
-    char operator[](vsl::len index) const noexcept {
+    char at(vsl::len index) const noexcept {
         return (index < _size) ? _buffer[index] : '\0';
+    }
+
+    char operator[](vsl::len index) const noexcept {
+        return _buffer[index];
     }
 
     bool operator==(const char* cstr) const noexcept {
