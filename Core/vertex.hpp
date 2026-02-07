@@ -27,7 +27,7 @@
 #include "types.hpp"
 
 // VSL
-#include "../VSL/string.hpp"
+#include "../VSL/string.hpp"    
 
 #endif // !defined(__cplusplus) || (__cplusplus < 201402L)
 #endif // VERTEX_5_HPP_

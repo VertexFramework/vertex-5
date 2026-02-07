@@ -16,9 +16,9 @@
 
 #include <platform.hpp>
 
-namespace vsl {
+#include "basic_types.hpp"
 
-using len = size_t;
+namespace vsl {
 
 template <vsl::len Capacity>
 class string {
