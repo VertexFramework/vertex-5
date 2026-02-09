@@ -39,6 +39,17 @@ public:
     }
 
     /**
+     * @brief Variadic constructor to initialize array without std::initializer_list.
+     * Use it like: vsl::array<5, int> arr(1, 2, 3);
+     */
+    template<typename... Args>
+    constexpr array(Args... args) noexcept 
+        : _buffer{args...}, _size(sizeof...(args)) 
+    {
+        static_assert(sizeof...(args) <= Capacity, "Too many initializers for array capacity");
+    }
+
+    /**
      * @brief Returns current number of elements.
      */
     vsl::len size(void) const noexcept {
